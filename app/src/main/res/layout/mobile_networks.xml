@@ -1,0 +1,303 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:id="@+id/a1"
+    android:scrollbars="none">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        android:background="#ffffff">
+        <!-- Row 1 with single column -->
+        //
+        <!-- Row 2 with 3 columns -->
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:background="#DC142C">
+
+            <ImageView
+                android:id="@+id/airtel"
+                android:layout_height="70dp"
+                android:layout_width="70dp"
+                android:padding="2dp"/>
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:text="@string/airtel"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/background_light"
+                android:padding="20dip"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/airtelcalling"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:src="@drawable/go" />
+        </TableRow>
+        //
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:background="@color/colorAccent">
+
+            <ImageView
+                android:id="@+id/aircel"
+                android:layout_height="70dp"
+                android:layout_width="70dp"
+                android:padding="2dp"
+                />
+
+            <TextView
+                android:id="@+id/TextView22"
+                android:text="@string/aircel"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/background_light"
+                android:padding="20dip"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/aircelcalling"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:src="@drawable/go" />
+        </TableRow>
+        //
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#CE93D8">
+
+            <ImageView
+                android:id="@+id/bsnl"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="2dp" />
+
+            <TextView
+                android:id="@+id/TextView33"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="20dip"
+                android:text="@string/bsnl"
+                android:textColor="@android:color/background_light"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/bsnlcalling"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:src="@drawable/go" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:background="@android:color/holo_blue_dark">
+
+            <ImageView
+                android:id="@+id/reliance"
+                android:layout_height="70dp"
+                android:layout_width="70dp"
+                android:padding="2dp"
+                />
+
+            <TextView
+                android:id="@+id/TextView44"
+                android:text="@string/relince"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/background_light"
+                android:padding="20dip"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/reliancecalling"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:src="@drawable/go" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Chocolate">
+
+            <ImageView
+                android:id="@+id/tatadocomo"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="2dp"
+                 />
+
+            <TextView
+                android:id="@+id/TextView55"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="20dip"
+                android:text="@string/docomo"
+                android:textColor="@android:color/background_light"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/docomocalling"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:src="@drawable/go" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#B7F2B6">
+
+            <ImageView
+                android:id="@+id/reliancejio"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="2dp"
+                />
+
+            <TextView
+                android:id="@+id/TextView66"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="20dip"
+                android:text="@string/jio"
+                android:textColor="@android:color/background_light"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/reliancejiocalling"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:src="@drawable/go" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_orange_light"
+            android:elevation="1dp">
+
+            <ImageView
+                android:id="@+id/idea"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="2dp"
+                 />
+
+            <TextView
+                android:id="@+id/TextView77"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="20dip"
+                android:text="@string/Idea"
+                android:textColor="@android:color/background_light"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/ideacalling"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:src="@drawable/go" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:background="#F5F1EE">
+
+            <ImageView
+                android:id="@+id/vadaphone"
+                android:layout_height="70dp"
+                android:layout_width="70dp"
+                android:padding="2dp"
+                />
+
+            <TextView
+                android:id="@+id/TextVie88"
+                android:text="@string/vodaphone"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/vodacalling"
+                android:layout_height="50dp"
+                android:layout_width="50dp"
+                android:src="@drawable/go"
+                android:layout_marginTop="10dp"
+                android:clickable="true" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:background="#6fdcf2">
+
+            <ImageView
+                android:id="@+id/unionr"
+                android:layout_height="70dp"
+                android:layout_width="70dp"
+                android:padding="2dp"
+                />
+
+            <TextView
+                android:id="@+id/TextVie99"
+                android:text="@string/unionr"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/unionrcalling"
+                android:layout_height="50dp"
+                android:layout_width="50dp"
+                android:src="@drawable/go"
+                android:layout_marginTop="10dp"
+                android:clickable="true" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>

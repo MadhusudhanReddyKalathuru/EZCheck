@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#f76697</color>
+
+
+
+
+    <!-- dots active colors -->
+    <color name="dot_active">#000000</color>
+
+
+    <!-- dots inactive colors -->
+    <color name="dot_inactive">#cccccc</color>
+
+
+
+    <color name="yellow">#f3c288</color>
+    <color name="BlueViolet">#8A2BE2</color>
+    <color name="ForestGreen">#228B22</color>
+
+    <color name="Chocolate">#b45613</color>
+    <color name="Coral">#f59571</color>
+    <color name="DarkBlue">#d9a3c1f5</color>
+    <color name="DarkCyan">#008B8B</color>
+    <color name="DarkGoldenRod">#B8860B</color>
+    <color name="DarkMagent">#8B008B</color>
+    <color name="DarkOrange">#fbff852d</color>
+    <color name="Fuchsia">#FF00FF</color>
+
+</resources>

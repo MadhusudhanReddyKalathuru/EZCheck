@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DarkBlue"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="300dp"
+        android:layout_height="450dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@color/yellow">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </RelativeLayout>
+    </FrameLayout>
+
+    <EditText
+        android:id="@+id/fe1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/frameLayout2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:textColor="@color/BlueViolet"
+        android:hint="Enter Your Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/fe2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/fe1"
+        android:layout_alignRight="@+id/fe1"
+        android:layout_below="@+id/fe1"
+        android:layout_marginTop="31dp"
+        android:ems="10"
+        android:textColor="@color/BlueViolet"
+        android:hint="Enater Your Mail Id"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/fe3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fe2"
+        android:layout_alignStart="@+id/fe2"
+        android:layout_below="@+id/fe2"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:textColor="@color/BlueViolet"
+        android:hint="Enter Your Mobile Number"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/fe4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fe3"
+        android:layout_alignStart="@+id/fe3"
+        android:layout_below="@+id/fe3"
+        android:layout_marginTop="33dp"
+        android:ems="10"
+        android:hint="Type FeedBack Here"
+        android:inputType="text"
+        android:textColor="@color/BlueViolet" />
+
+    <Button
+        android:id="@+id/feedbacksubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/frameLayout2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp"
+        android:text="Submit" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/frameLayout2"
+        android:layout_centerHorizontal="true"
+        android:text="Feedback Form"
+        android:textSize="20dp" />
+
+</RelativeLayout>

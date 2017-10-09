@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:id="@+id/a1"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/DarkOrange"
+        >
+
+        <ImageView
+
+            android:id="@+id/mobilenetworksmain"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90dp"
+            android:clickable="true"
+            android:src="@drawable/network_logo" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mobilenetworksmain"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp"
+            android:text="Mobile Networks"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/banksmain"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_alignLeft="@+id/mobilenetworksmain"
+            android:layout_alignStart="@+id/mobilenetworksmain"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="5dp"
+            android:clickable="true"
+            android:src="@drawable/bank_logo" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/banksmain"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            android:text="Banks"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:text="Developed By"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="Kalathuru Madhusudhan Reddy"
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+    </ScrollView>

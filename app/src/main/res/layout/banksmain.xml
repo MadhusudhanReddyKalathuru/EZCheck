@@ -1,0 +1,301 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        android:background="#ffffff">
+        <!-- Row 1 with single column -->
+
+        <!-- Row 2 with 3 columns -->
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:background="#14B2DC">
+
+            <ImageView
+                android:id="@+id/canarabank"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="2dp" />
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:text="Canara Bank"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/background_light"
+                android:padding="20dip"
+                android:gravity="center"
+                android:textSize="@dimen/activity_horizontal_margin" />
+
+            <ImageView
+                android:id="@+id/canarcalling"
+                android:layout_height="50dp"
+                android:layout_width="50dp"
+                android:src="@drawable/go"
+                android:layout_marginTop="10dp"
+                android:clickable="true" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:background="@color/DarkBlue"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/statebankofindia"
+                android:layout_height="70dp"
+                android:layout_width="70dp"
+                android:padding="2dp"
+                />
+
+            <TextView
+                android:id="@+id/TextView22"
+                android:text="State Bank Of India"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/background_light"
+                android:padding="20dip"
+                android:gravity="center"
+                android:textSize="@dimen/activity_horizontal_margin" />
+
+            <ImageView
+                android:id="@+id/sbicalling"
+                android:layout_height="50dp"
+                android:layout_width="50dp"
+                android:src="@drawable/go"
+                android:layout_marginTop="10dp"
+                android:clickable="true" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:background="#DC142C">
+
+            <ImageView
+                android:id="@+id/kotakmahindrabank"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="2dp" />
+
+            <TextView
+                android:id="@+id/TextView33"
+                android:text="Kotak Mahindra Bank"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/background_light"
+                android:padding="20dip"
+                android:gravity="center"
+                android:textSize="@dimen/activity_horizontal_margin" />
+
+            <ImageView
+                android:id="@+id/kotakcalling"
+                android:layout_height="50dp"
+                android:layout_width="50dp"
+                android:src="@drawable/go"
+                android:layout_marginTop="10dp"
+                android:clickable="true" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:background="#A01728">
+
+            <ImageView
+                android:id="@+id/axisbank"
+                android:layout_height="70dp"
+                android:layout_width="70dp"
+                android:padding="2dp"
+                />
+
+            <TextView
+                android:id="@+id/TextView44"
+                android:text="Axis Bank"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/background_light"
+                android:padding="20dip"
+                android:gravity="center"
+                android:textSize="@dimen/activity_horizontal_margin" />
+
+            <ImageView
+                android:id="@+id/axiscalling"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:src="@drawable/go" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:background="#EBE24F">
+
+            <ImageView
+                android:id="@+id/icicibank"
+                android:layout_height="70dp"
+                android:layout_width="70dp"
+                android:padding="2dp"
+                />
+
+            <TextView
+                android:id="@+id/TextView55"
+                android:text="Icici Bank"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/background_light"
+                android:padding="20dip"
+                android:gravity="center"
+                android:textSize="@dimen/activity_horizontal_margin" />
+
+            <ImageView
+                android:id="@+id/icicicalling"
+                android:layout_height="50dp"
+                android:layout_width="50dp"
+                android:src="@drawable/go"
+                android:layout_marginTop="10dp"
+                android:clickable="true" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:background="#B7F2B6">
+
+            <ImageView
+                android:id="@+id/punjabnationalbank"
+                android:layout_height="70dp"
+                android:layout_width="70dp"
+                android:padding="2dp"
+                />
+
+            <TextView
+                android:id="@+id/TextView66"
+                android:text="Punjab National Bank"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/background_light"
+                android:padding="20dip"
+                android:gravity="center"
+                android:textSize="@dimen/activity_horizontal_margin" />
+
+            <ImageView
+                android:id="@+id/punjabicalling"
+                android:layout_height="50dp"
+                android:layout_width="50dp"
+                android:src="@drawable/go"
+                android:layout_marginTop="10dp"
+                android:clickable="true" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:background="#C99EF1">
+
+            <ImageView
+                android:id="@+id/syndicatebank"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:padding="2dp" />
+
+            <TextView
+                android:id="@+id/TextView77"
+                android:text="Syndicate Bank"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/background_light"
+                android:padding="20dip"
+                android:gravity="center"
+                android:textSize="@dimen/activity_horizontal_margin" />
+
+            <ImageView
+                android:id="@+id/syndiactecalling"
+                android:layout_height="50dp"
+                android:layout_width="50dp"
+                android:src="@drawable/go"
+                android:layout_marginTop="10dp"
+                android:clickable="true" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:background="#F5F1EE">
+
+            <ImageView
+                android:id="@+id/unionbank"
+                android:layout_height="70dp"
+                android:layout_width="70dp"
+                android:padding="2dp"
+                />
+
+            <TextView
+                android:id="@+id/TextVie88"
+                android:text="Union Bank"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:textSize="@dimen/activity_horizontal_margin" />
+
+            <ImageView
+                android:id="@+id/unioncalling"
+                android:layout_height="50dp"
+                android:layout_width="50dp"
+                android:src="@drawable/go"
+                android:layout_marginTop="10dp"
+                android:clickable="true" />
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/tableRow9"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:background="#FFE4C4">
+
+            <ImageView
+                android:id="@+id/indianbank"
+                android:layout_height="70dp"
+                android:layout_width="70dp"
+                android:padding="2dp"
+                />
+
+            <TextView
+                android:id="@+id/TextVie99"
+                android:text="Indian Bank"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:padding="20dip"
+                android:gravity="center"
+                android:textSize="@dimen/activity_horizontal_margin" />
+
+            <ImageView
+                android:id="@+id/indaincalling"
+                android:layout_height="50dp"
+                android:layout_width="50dp"
+                android:src="@drawable/go"
+                android:layout_marginTop="10dp"
+                android:clickable="true" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>

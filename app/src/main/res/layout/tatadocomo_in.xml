@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@color/Chocolate">
+        <ImageView
+            android:id="@+id/tatadocomo_title"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <EditText
+                android:id="@+id/tatadocomo_edittext"
+                android:layout_width="213dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tatadocomo_balence"
+                android:layout_alignStart="@+id/tatadocomo_balence"
+                android:layout_marginTop="120dp"
+                android:ems="10"
+                android:hint="Enter Recharge Code"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/tatadocomo_recharge_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/tatadocomo_balence"
+                android:layout_alignEnd="@+id/tatadocomo_balence"
+                android:layout_alignRight="@+id/tatadocomo_balence"
+                android:background="@color/Chocolate"
+                android:text="Recharge"
+                android:textColor="@android:color/background_dark" />
+
+            <Button
+                android:id="@+id/tatadocomo_balence"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tatadocomo_edittext"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="22dp"
+                android:background="@color/Chocolate"
+                android:text="Check Your Prepaid Balence" />
+
+            <Button
+                android:id="@+id/tatadocomo_loan"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tatadocomo_balence"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp"
+                android:background="@color/Chocolate"
+                android:text="Take Loan" />
+
+            <Button
+                android:id="@+id/tatadocomo_checkmobilenumber"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tatadocomo_loan"
+                android:layout_alignStart="@+id/tatadocomo_loan"
+                android:layout_below="@+id/tatadocomo_loan"
+                android:layout_marginTop="9dp"
+                android:background="@color/Chocolate"
+                android:text="Check Your Mobile Number" />
+
+            <Button
+                android:id="@+id/tatadocomo_customercare"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tatadocomo_checkmobilenumber"
+                android:layout_alignStart="@+id/tatadocomo_checkmobilenumber"
+                android:layout_below="@+id/tatadocomo_checkmobilenumber"
+                android:layout_marginTop="10dp"
+                android:background="@color/Chocolate"
+                android:text="Call To Customer Care " />
+
+            <Button
+                android:id="@+id/tatadocomo_mailcare"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tatadocomo_customercare"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="9dp"
+                android:background="@color/Chocolate"
+                android:text="Mail To Customer Care" />
+
+            <Button
+                android:id="@+id/tatadocomo_share"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tatadocomo_mailcare"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="9dp"
+                android:background="@color/Chocolate"
+                android:text="Share Your Balence To Your Friends" />
+            <Button
+                android:id="@+id/tatadocomo_money"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tatadocomo_share"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="9dp"
+                android:background="@color/Chocolate"
+                android:text="tatadocomo Money"/>
+            <Button
+                android:id="@+id/check_data_balence"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tatadocomo_money"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="9dp"
+                android:background="@color/Chocolate"
+                android:text="Check Your Data Balence"
+                />
+            <Button
+                android:id="@+id/tatadocomo_sms_balence"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/check_data_balence"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="9dp"
+                android:background="@color/Chocolate"
+                android:text="Check Your SMS Balence"
+                />
+            <Button
+                android:id="@+id/tatadocomo_valueaddedservices"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tatadocomo_sms_balence"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="9dp"
+                android:background="@color/Chocolate"
+                android:text="Check Your Value Added Services"
+                />
+            <Button
+                android:id="@+id/last_callcharges"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tatadocomo_valueaddedservices"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="9dp"
+                android:background="@color/Chocolate"
+                android:text="Last 5 Call Charges"
+                />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+

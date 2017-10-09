@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@color/Coral"
+        android:id="@+id/relativeLayout">
+        <ImageView
+            android:id="@+id/axis_title"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:layout_below="@+id/relativeLayout">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/axis_balence"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp"
+                android:background="@color/Coral"
+                android:text="Balence" />
+
+            <Button
+                android:id="@+id/axis_ministmt"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/axis_balence"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                 android:background="@color/Coral"
+                android:text="Mini Statement" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/axis_blockcard"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="137dp"
+         android:background="@color/Coral"
+        android:text="Balock Your Card" />
+
+    <Button
+        android:id="@+id/axis_customercare"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/axis_blockcard"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+         android:background="@color/Coral"
+        android:text="Customer Care" />
+
+    <Button
+        android:id="@+id/axis_mailcare"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/axis_customercare"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+         android:background="@color/Coral"
+        android:text="Mail Care" />
+</RelativeLayout>

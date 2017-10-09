@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DarkCyan">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="60dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EBE24F">
+
+            <EditText
+                android:id="@+id/idea_share_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/idea_share_edit_amount"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:hint="Enter Friends Idea Mobile Number"
+                android:inputType="number"
+                android:textColor="@color/colorAccent" />
+
+            <EditText
+                android:id="@+id/idea_share_edit_amount"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/share_button"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="38dp"
+                android:ems="10"
+                android:hint="Enter  Amount"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/share_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="99dp"
+                android:text="Share"
+                android:textColor="@color/DarkMagent" />
+
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>
