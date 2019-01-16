@@ -5,7 +5,7 @@ In  This Project Two Modiules
 1.Mobile Networks
 2.Banks
 
-1,.Mobile Networks:
+1.Mobile Networks:
 ===================
 1.balanece,net balance,validity,customer care ,last 5 transactions and all services and all networks convered here
 
